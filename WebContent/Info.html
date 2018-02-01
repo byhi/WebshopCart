@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Info</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+ 	<h1>Feladat</h1>
+      </div>
+      <div class="container">
+      <div class="well">
+       <p>A feladatok megoldásához bármilyen IDE-t és view technológiát használhatsz, amit kényelmesnek érzel. Mavent is nyugodtan használhatsz.  
+       Az egyetlen feltétel, hogy Tomcatre deployolható legyen. A két részfeladatnál egy projektben dolgozhatsz.A feladatok beadásához a forráskódot és a war állományt küldd el!</p>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12">
+          
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">A feladat</h3>
+            </div>
+            <div class="panel-body">
+             Készíts egy servletet, ami egy webshop kedvezménykezelését
+			szimulálja. Az alábbi kedvezménytípusok léteznek:<br>
+			 * 2=3: kett őt fizet, hármat kap. Ha a kosárban van legalább 3
+			egyforma termék, akkor 3 termékenként 1 termék árát kedvezményként
+			jóvá kell írni.<br>
+			 * megapack -6000: vannak nagykiszerelés ű, megapack típusú termékek.
+			Ha ilyen termékből egy teljes kartonnal (12 db) vásárol, akkor 6000 Ft kedvezményt
+			kap kartononként.<br><br>
+			
+			A kedvezménytípusok nem összevonhatóak, mindig a legnagyobb
+			kedvezményt nyújtót kell figyelembe venni az egész kosárra. Egy
+			kedvezménytípus ugyanakkor több kedvezményt is nyújthat. Pl. ha vesz 7
+			gumicsirkét és 4 téliszalámit, akkor 2 gumicsirke és 1 téliszalámi
+			értéke a kedvezmény a 2=3 kedvezménytípus esetén. Hasonlóan, ha
+			megapack uborkából vesz 12-őt, megapack gesztenyéb ől pedig 24-et, akkor
+			3-szer 6000 Ft a kedvezmény a megapack -6000 kedvezménytípus esetén.
+			A kedvezénytípusok könnyen b ővíthetőek legyenek.
+			<br><br>
+			A terméklista fix, az alábbi termékek léteznek (a kódban legyen beégetve):
+			 * név: téliszalámi, ár: 2000, megapack: nem
+			 * név: gumikacsa, ár: 3000, megapack: nem
+			 * név: megapack uborka, ár: 2800, megapack: igen
+			 * név: megapack gesztenye, ár: 1000, megapack: igen<br><br>
+			A servlet kérje be egy  űrlapon termékenként a termékek darabszámát. A
+			válaszban jelenítse meg az eredeti űrlapot, a megadott darabszámokkal,
+			ez alá írja ki a kosár eredeti árát, kedvezményes árát és a
+			kedvezménytípus nevét.
+            </div>
+          </div>
+          
+        
+      </div>
+	</div>
+
+ 	<div class="row">
+        <div class="col-sm-12">
+          
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">B feladat</h3>
+            </div>
+            <div class="panel-body">
+			             A servlet jelenítse meg az árakat EUR-ban is, az MNB webservice-én
+			(http://www.mnb.hu/arfolyamok.asmx?WSDL) keresztül lekérve a
+			valutaárfolyamot.
+            </div>
+          </div>
+          
+        
+      </div>
+</div>
+
+</body>
+</html>

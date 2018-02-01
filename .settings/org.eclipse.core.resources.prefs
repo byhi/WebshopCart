@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//WebContent/Cart.jsp=UTF-8
+encoding//src/hu/mnb/www/webservices/MNBArfolyamServiceSoap.java=UTF-8
+encoding//src/hu/mnb/www/webservices/MNBArfolyamServiceSoap_GetCurrencies_StringFault_FaultMessage.java=UTF-8
+encoding//src/hu/mnb/www/webservices/MNBArfolyamServiceSoap_GetCurrencyUnits_StringFault_FaultMessage.java=UTF-8
+encoding//src/hu/mnb/www/webservices/MNBArfolyamServiceSoap_GetCurrentExchangeRates_StringFault_FaultMessage.java=UTF-8
+encoding//src/hu/mnb/www/webservices/MNBArfolyamServiceSoap_GetDateInterval_StringFault_FaultMessage.java=UTF-8
+encoding//src/hu/mnb/www/webservices/MNBArfolyamServiceSoap_GetExchangeRates_StringFault_FaultMessage.java=UTF-8
+encoding//src/hu/mnb/www/webservices/MNBArfolyamServiceSoap_GetInfo_StringFault_FaultMessage.java=UTF-8
+encoding//src/org/tempuri/CustomBinding_MNBArfolyamServiceSoapStub.java=UTF-8
+encoding//src/org/tempuri/MNBArfolyamServiceSoapImpl.java=UTF-8
+encoding//src/org/tempuri/MNBArfolyamServiceSoapImplLocator.java=UTF-8
